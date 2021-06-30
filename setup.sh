@@ -6,7 +6,7 @@ sudo apt-get install wget
 
 # Download my dotfiles
 git clone https://github.com/shanrauf/dotfiles
-cp ~/dotfiles/. ~
+cp -a ~/dotfiles/. ~
 
 # Oh My Zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
