@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/bin/bash
 
 sudo apt-get update
 
@@ -19,4 +19,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Restart shell
-echo "Installation completed - restart shell to see changes"
+echo "Installation completed. Restart shell to see changes"
