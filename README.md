@@ -1,5 +1,8 @@
 # dotfiles
 
+# TODO
+- Something about my script I think makes the home directory owned by root, so until I fix the script, run `sudo chown $USER:$USER ~ -R`
+
 # Setup
 
 1. Setup and open WSL
