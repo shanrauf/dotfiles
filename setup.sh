@@ -1,9 +1,5 @@
 #!/bin/bash
 
-sudo apt-get update
-
-sudo apt-get install wget
-
 # Download my dotfiles
 git clone https://github.com/shanrauf/dotfiles
 cp -a ~/dotfiles/. ~
