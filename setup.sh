@@ -16,6 +16,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 # Cleaning up
 rm -rf dotfiles
+rm -rf setup.sh
 
 # Restart shell
 echo "Installation completed. Restart shell to see changes"
